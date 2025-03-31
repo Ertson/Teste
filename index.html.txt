@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Noiva</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #d23669;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .heart {
+            color: #ff6b81;
+            font-size: 24px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        .photo-placeholder {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background-color: #f8e1e7;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #d23669;
+        }
+        button {
+            background-color: #ff6b81;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        button:hover {
+            background-color: #d23669;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-placeholder">
+            [Sua Foto Juntos]
+        </div>
+        <h1>Para Minha Noiva <span class="heart">❤</span></h1>
+        
+        <p>Meu amor,</p>
+        
+        <p>Desde o momento em que você entrou na minha vida, tudo ganhou mais cor, mais sentido e mais amor. Cada dia ao seu lado é um presente que eu agradeço.</p>
+        
+        <p>Você é a pessoa que me faz acreditar no amor verdadeiro, que me apoia em todos os momentos e que ilumina meus dias com seu sorriso.</p>
+        
+        <p>Prometo estar ao seu lado em todos os momentos, nos bons e nos difíceis, amando você cada vez mais a cada dia que passar.</p>
+        
+        <p>Estou contando os dias até podermos dizer "sim" um para o outro e começar nossa vida juntos oficialmente.</p>
+        
+        <p>Te amo mais do que todas as palavras podem expressar.</p>
+        
+        <p>Para sempre seu,</p>
+        <p><strong>[Seu Nome]</strong></p>
+        
+        <button onclick="playMusic()">Clique aqui pelo nosso som</button>
+    </div>
+
+    <script>
+        function playMusic() {
+            // Substitua pelo link de uma música especial para vocês
+            window.open("https://www.youtube.com/watch?v=sua-musica-especial", "_blank");
+        }
+    </script>
+</body>
+</html>
