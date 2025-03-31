@@ -89,7 +89,7 @@
         <p>Te amo mais do que todas as palavras podem expressar.</p>
         
         <p>Para sempre seu,</p>
-        <p><strong>[Seu Nome]</strong></p>
+        <p><strong>[Seu anjo, Ertson.]</strong></p>
         
         <button onclick="playMusic()">Clique aqui pelo nosso som</button>
     </div>
@@ -97,7 +97,7 @@
     <script>
         function playMusic() {
             // Substitua pelo link de uma música especial para vocês
-            window.open("https://www.youtube.com/watch?v=sua-musica-especial", "_blank");
+            window.open("https://youtu.be/_v0-5QY6y-M?si=6ToPXVpTGgUcXX34", "_blank");
         }
     </script>
 </body>
